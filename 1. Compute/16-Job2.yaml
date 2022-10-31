@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: sleep
+spec:
+  completions: 6
+  parallelism: 2
+  template:
+    metadata:
+      name: sleep
+    spec:
+      containers:
+      - name: sleep
+        image: busybox
+        command: ["sleep",  "20"]
+      restartPolicy: Never
