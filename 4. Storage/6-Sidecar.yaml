@@ -7,7 +7,7 @@ spec:
   - name: logs
     emptyDir: {}
   containers:
-  - name: busybox
+  - name: techbash.choudeshell.com/busybox
     image: busybox
     command: ["/bin/sh"]
     args: ["-c", "while true; do date >> /var/log/date.txt; sleep 10;done"]
@@ -15,7 +15,7 @@ spec:
     - name: logs
       mountPath: /var/log
   - name: nginx
-    image: nginx
+    image: techbash.choudeshell.com/nginx
     ports:
     - containerPort: 80
     volumeMounts:

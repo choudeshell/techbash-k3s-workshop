@@ -4,7 +4,7 @@ metadata:
   name: stress
 spec:  
   containers:
-    - image: alexeiled/stress-ng
+    - image: techbash.choudeshell.com/stress-ng
       resources:
         limits:
           cpu: "2"

@@ -10,7 +10,7 @@ spec:
         spec:
           containers:
           - name: sleep
-            image: busybox
+            image: techbash.choudeshell.com/busybox
             imagePullPolicy: IfNotPresent
             command: ["date"]             
           restartPolicy: OnFailure ####

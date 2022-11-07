@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: my-configmap
 data:
-  things: codemash
+  things: techbash
   

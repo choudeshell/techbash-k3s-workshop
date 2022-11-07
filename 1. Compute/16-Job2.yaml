@@ -11,6 +11,6 @@ spec:
     spec:
       containers:
       - name: sleep
-        image: busybox
+        image: techbash.choudeshell.com/busybox
         command: ["sleep",  "20"]
       restartPolicy: Never

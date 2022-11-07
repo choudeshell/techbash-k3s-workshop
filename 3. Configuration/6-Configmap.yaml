@@ -3,7 +3,7 @@ kind: ConfigMap
 metadata:
   name: my-configmap
 data:
-  things: codemash
+  things: techbash
   messages: |
     hello1=hello
     hello2=hola
