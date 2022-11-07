@@ -12,7 +12,7 @@ In this workshop, we will not only get our feet wet with Kubernetes, we will get
 
 This workshop is intended for beginner (introductory and overview) skill levels. This workshop will be slow paced to ensure that attendees are successful in:
 
-- Creating their own production-ready Kubernetes instance
+- Getting a Kubernetes instance up & running
 - Understanding basic of Kubernetes
 - Kubernetes tooling, command line and debugging
 
@@ -22,45 +22,21 @@ This workshop is intended for beginner (introductory and overview) skill levels.
 
  ## Schedule
 **Session: Tuesday, Nov. 8, 1:00 PM - 5:00 PM**
-- 50 minutes: Getting started and slides.
-- 50 minutes: Let's learn through examples.
-- 50 minutes: Let's learn through more examples.
-- 50 minutes: Learn through exercises.
+- 50 minutes: Up and Running & Basics
+- 50 minutes: Deployments & Scaling
+- 50 minutes: Kubernetes Networking
+- 50 minutes: Volumes & Secrets
 
-## Prerequisites
 
-### Linux
+## Tooling
 
-This workshop will focus on using k3s/Kubernetes on Linux. The prerequisites for Linux depends on your laptop.
+This workshop will focus on using k3s/Kubernetes.
 
-**Windows 10/11**
-- WSL (Windows Subsystem for Linux) (https://docs.microsoft.com/en-us/windows/wsl/install)
-    - Please install Ubuntu 22.04 (https://ubuntu.com/blog/announcing-ubuntu-on-windows-community-preview-wsl-2)
+**Rancher Desktop**
+- Rancher Desktop (https://rancherdesktop.io/)
 
-**Intel Mac**
-- Please create an Ubuntu 22.04 or Ubuntu 22.10 VM using either:
-    - VMware Fusion (https://customerconnect.vmware.com/web/vmware/evalcenter?p=fusion-player-personal)
-    - Parallels (https://www.parallels.com/)
-    - VirtualBox (https://www.virtualbox.org/wiki/Downloads)
-
-**M1 Mac**
-- **Please see cloud providers**
-
-**Cloud Providers**
-
-If you are unable to meet the hardware requirements, you may sign-up for a cloud compute provider. 
-
-### Lens (Kubernetes IDE)
-
-We will be exploring k3s/Kubernetes via an IDE called [OpenLens](https://github.com/MuhammedKalkan/OpenLens) (Supported on Windows, Intel Mac, M1 Mac, Linux). 
-
-### HTTP Client
-
-We will be issuing HTTP requests throughout the workshop. One of two HTTP clients should be installed. **Please note that Fiddler is not recommend. We will be modifying host headers. This is difficult and error prone with Fiddler**
-
-* Postman - https://www.postman.com/downloads/ (Supported on Windows, Intel Mac, M1 Mac, Linux)
-
-* Insomnia - https://insomnia.rest/products/insomnia (Supported on Windows, Intel Mac, M1 Mac, Linux)
+**Open Lens**
+- Open Lens (https://github.com/MuhammedKalkan/OpenLens)
 
 
 

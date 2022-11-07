@@ -1,13 +1,21 @@
 # Getting Started
 
+Download
+- Rancher Desktop (https://rancherdesktop.io/)
+- Open Lens (https://github.com/MuhammedKalkan/OpenLens)
+- VSCode (https://code.visualstudio.com/)
+    - Install Kubernetes extension (https://marketplace.visualstudio.com/items?itemName=ms-kubernetes-tools.vscode-kubernetes-tools)
+
+## Advanced Install
+
 > If you are running iptables in nftables mode instead of legacy you might encounter issues. We recommend utilizing newer iptables (such as 1.6.1+) to avoid issues.
 > ```bash
 > sudo update-alternatives --set iptables /usr/sbin/iptables-legacy
 > ```
 
-1. Download K3s v1.22.5+k3s1 from https://github.com/k3s-io/k3s/releases/tag/v1.22.5%2Bk3s1 on **your VM/WSL instance**
+1. Download K3s v1.25.3+k3s1 from https://github.com/k3s-io/k3s/releases/tag/v1.25.3%2Bk3s1
 ```shell
-wget https://github.com/k3s-io/k3s/releases/download/v1.22.5%2Bk3s1/k3s
+wget https://github.com/k3s-io/k3s/releases/download/v1.25.3%2Bk3s1/k3s
 ```
 2. Add execute modifier to `k3s`
 ```shell
@@ -31,4 +39,4 @@ ip addr show
 ----
 # Bookmarks
 Kubernetes API Docs
-https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.22/
+https://kubernetes.io/docs/reference/generated/kubernetes-api/v1.25/
